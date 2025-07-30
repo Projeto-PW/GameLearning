@@ -11,6 +11,15 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --background: #252525;
+    --primColor: #ff005c;
+    --secColor: #00ffc6;
+    --accentColor: #6e0dd0;
+}
+
 body {
     font-family: Pixelify Sans;
+    color: #fff;
+    background: var(--background);
 }
